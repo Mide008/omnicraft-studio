@@ -2,9 +2,7 @@
 
 A professional, responsive design tool built with Fabric.js that works on desktop, tablet, and mobile devices.
 
-![OmniCraft Studio](https://img.shields.io/badge/OmniCraft-Studio-purple)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-green)
-![License](https://img.shields.io/badge/License-MIT-blue)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/omnicraft-studio)
 
 ## 🌟 Features
 
@@ -18,20 +16,27 @@ A professional, responsive design tool built with Fabric.js that works on deskto
 - **Smart Tools** - Auto-placement, duplication, and more
 - **Real-time Adjustments** - Opacity, position, size controls
 
-## 🚀 Quick Start
+## 🚀 Quick Deployment
 
 ### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/omnicraft-studio)
+1. Click the "Deploy with Vercel" button above
+2. Authorize with GitHub
+3. Create a new repository
+4. Vercel will automatically deploy your site
 
-Or deploy manually:
+### Manual Deployment
 
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/omnicraft-studio.git
-
-# Navigate to project
 cd omnicraft-studio
 
+# Install dependencies
+npm install
+
+# Run locally
+npm start
+
 # Deploy to Vercel
-vercel
+npm run deploy

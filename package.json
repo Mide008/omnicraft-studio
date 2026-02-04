@@ -1,0 +1,33 @@
+{
+  "name": "omnicraft-studio",
+  "version": "1.0.0",
+  "description": "Professional responsive design tool with Fabric.js",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "serve public -p 3000",
+    "dev": "serve public -p 3000",
+    "build": "echo 'Build complete'",
+    "predeploy": "npm run build",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "design",
+    "canvas",
+    "fabricjs",
+    "responsive",
+    "editor"
+  ],
+  "author": "OmniCraft Studio Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/omnicraft-studio.git"
+  },
+  "homepage": "https://omnicraft-studio.vercel.app"
+}
